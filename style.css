@@ -1,23 +1,59 @@
-*{
+body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("./images/background.jpeg");
+    
 }
-body{
-    background-image: url("./image/login.jpg");
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    height: 100%;
-    background-size: cover;
+.form {
+    width: 300px;
+    height: 400px; 
+    margin: 100px auto;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.form{
-    margin: 10% 0 0 40%;
-    height: 320px;
-    max-width: 300px;
+
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="reset"],
+.form button[type="submit"] {
     width: 100%;
-    border-radius: 20px 20px 20px 20px ;
-    background-color: #808080;
-    border:2px solid black;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
+.form button[type="submit"] {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
 
+.form input[type="reset"] {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+    border: 1px solid #ccc;
+}
+
+.form button[type="submit"]:hover {
+    background-color: rgb(105, 101, 101);
+}
+
+.form input[type="reset"]:hover {
+    background-color: rgb(105, 101, 101);
 }
