@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./image/login.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 100%;
+    background-size: cover;
+}
+.form{
+    margin: 10% 0 0 40%;
+    height: 320px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px ;
+    background-color: #808080;
+    border:2px solid black;
+
+
+}
